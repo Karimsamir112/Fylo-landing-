@@ -1,0 +1,614 @@
+body{
+	overflow-x: hidden;
+	font-family: Open Sans;
+	font-weight: 400
+}
+
+.first-lign{
+	
+	display:inline-block;
+	position: relative;
+	top:40px;
+	left:2.5%;
+	width: 92%
+}
+.first-lign img {
+	
+	width: 17%
+}
+
+.first-lign div{
+float: right
+}
+.first-lign li{
+	
+	list-style-type: none;
+	display:inline;
+	
+}
+.first-lign li a{
+
+color:#8d8d8d;
+	
+	text-decoration: none;
+	
+	margin-left: 40px;
+	transition:all 1s ease-in-out
+}
+
+.first-lign li a:hover{
+
+
+	
+	text-decoration: underline;
+	
+	
+}
+/* lg and md */
+.files{
+margin-top: 120px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row-reverse;
+	column-gap:50px
+}
+.files div:first-of-type{
+	
+	margin-top: 20px;
+}
+.files div:last-of-type{
+	margin-top: 20px;
+}
+h1{
+color: black;
+	font-size: 45px;
+}
+h3 , h4{
+	color:#8d8d8d;
+}
+
+.files input{
+	height:40px;
+	border:1px solid;
+	width: 300px;
+	padding-left: 20px;
+}
+
+.files button{
+	
+	height: 40px;
+	border:1px solid;
+	width:190px;
+	background-color: hsl(224, 93%, 58%);
+	text-align: center;
+	color:white;
+	margin-left: 10px;
+	
+}
+
+.files img{
+	margin-top: -40px;
+	width: 550px
+}
+
+
+
+/* sm and xs */
+
+/*
+.files-sm-xs{
+margin-top: 120px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row-reverse;
+	column-gap:50px
+} */
+.files-sm-xs{
+	margin-top: 120px;
+}
+.files-sm-xs div:first-of-type{
+	
+	margin-top: 20px;
+	text-align: center
+}
+.files-sm-xs div:last-of-type{
+	margin-top: 20px;
+	text-align: center
+}
+.files-sm-xs h1{
+color: black;
+	font-size: 30px;
+	
+}
+.files-sm-xs h3{
+	color:#adadad;
+	
+}
+
+.files-sm-xs input{
+	height:40px;
+	border:1px solid;
+	width: 300px;
+	padding-left: 20px;
+}
+
+.files-sm-xs button{
+	
+	height: 40px;
+	border:1px solid;
+	width:300px;
+	background-color: hsl(224, 93%, 58%);
+	text-align: center;
+	color:white;
+	margin-top: 10px;
+	
+}
+
+.files-sm-xs img{
+
+	width:90%
+}
+
+
+
+/* lg and md */
+
+.productive{
+	
+	background-color: hsl(240, 75%, 98%);
+	height: 800px;
+	padding-top: 20px;
+	
+position: relative;
+	top:120px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row-reverse;
+	column-gap:50px;
+	transition: all 0.5s ease-in-out;
+	
+}
+.bg{
+	margin-top: 180px;
+	background: url(../images/bg-curve-desktop.svg);
+	background-repeat: no-repeat;
+	background-size: 100% 140px;
+
+}
+
+.productive:first-of-type{
+	
+	margin-top: 20px;
+}
+.productive:nth-of-type(2){
+	margin-top: 20px;
+}
+.productive img{
+	margin-top: -40px;
+	width: 470px;
+	
+}
+
+
+.see-how-lg-md{
+	list-style-type: none;
+	margin-left: 0px
+}
+
+
+.see-lg-md{
+	color:hsl(176, 68%, 64%);
+
+}
+.see-lg-md:hover{
+	color:hsl(176, 68%, 64%);
+	text-decoration: none;
+
+}
+
+
+
+#arrow-lg-md{
+	border: 0px solid;
+	background-color: hsl(176, 68%, 64%);;
+	color:white;
+	
+	border-radius: 50%;
+	font-size: 10.5px;
+	text-align: center;
+	padding-top: 2px;
+	height: 15px;
+	width:15px;
+		
+}
+hr{
+	border:0.5px solid hsl(176, 68%, 64%);
+	margin-left: 0px;
+	margin-top:2px;
+	width: 140px;
+}
+
+
+.see-lg-md , .see-sm-xs , .underline-lg-md , .underline-sm-xs , #arrow-lg-md , #arrow-sm-xs{
+	transition: all 0.5s ease-in-out
+}
+
+
+.quotes{
+	height: 250px;
+	width: 370px;
+	
+	padding-top: 50px;
+	padding-left: 20px;
+	background-color: white;
+	position: relative;
+	top:-20px
+}
+.quotes img{
+	
+	height: 30px;
+	width: 30px;
+	
+}
+.profile{
+position: relative;
+	top:30px;
+	border-radius: 50%;
+	
+	height: 40px;
+	width: 40px;
+	 margin-top: 20px;
+	
+}
+.person{
+	position: relative;
+	top:10px;
+}
+ span{
+	
+	 font-size: 11px;
+	margin-left: 40px
+}
+
+/* sm and xs */
+.productive-sm-xs{
+	
+	background-color: hsl(240, 75%, 98%);
+	position: relative;
+	top:120px;
+}
+
+.bg-sm-xs{
+	margin-top: 180px;
+	background: url(../images/bg-curve-mobile.svg);
+	background-repeat: no-repeat;
+	background-size: 100% 140px;
+
+}
+
+.productive-sm-xs:first-of-type{
+	margin-top: 20px;
+	text-align: center
+}
+.productive-sm-xs:nth-of-type(2){
+	margin-top: 20px;
+	text-align: center
+}
+.productive-sm-xs h1{
+	font-size: 30px
+}
+.productive-sm-xs img{
+	width:90%
+}
+.see-how-sm-xs{
+	list-style-type: none;
+	
+}
+.see-how-sm-xs hr{
+	
+	position: relative;
+	top:-45px;
+	margin:50px auto
+	
+}
+
+
+.see-sm-xs{
+	color:hsl(176, 68%, 64%);
+	
+}
+.see-sm-xs:hover{
+	color:hsl(176, 68%, 64%);
+	text-decoration: none;
+	
+}
+#arrow-sm-xs{  
+	border: 0px solid;
+	background-color: hsl(176, 68%, 64%);;
+	color:white;
+	
+	border-radius: 50%;
+	font-size: 10.5px;
+	text-align: center;
+	padding-top: 2px;
+	height: 15px;
+	width:15px;
+		
+}
+.quotes-sm-xs{
+	margin:50px auto;
+	text-align: left;
+	height: 250px;
+	width: 370px;
+	
+	padding-top: 50px;
+	padding-left: 20px;
+	background-color: white;
+	position: relative;
+	top:-70px
+	
+}
+.quotes-sm-xs img{
+	
+	height: 30px;
+	width: 30px;
+	
+}
+.profile-sm-xs{
+position: relative;
+	top:10px;
+	border-radius: 50%;
+	
+	height: 40px;
+	width: 40px;
+	 
+	
+}
+.person-sm-xs{
+	position: relative;
+	top:10px;
+}
+ 
+/* lg and md */
+
+.early{
+	position: relative;
+	top:125px;
+	padding-top: 80px;
+	width: 100%;
+	height: 300px;
+	background-color: hsl(238, 22%, 44%);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.early div:last-of-type{
+	margin-top: 70px
+}
+
+.early h1{
+	color:white;
+}
+
+
+
+
+.early input{
+	height:40px;
+	
+	width: 400px;
+	padding-left: 20px;
+}
+
+
+.early button{
+	
+	height: 40px;
+	
+	width:190px;
+	background-color: hsl(224, 93%, 58%);
+	text-align: center;
+	color:white;
+	margin-top: 10px;
+
+}
+
+/* sm and xs */
+/*
+.early-sm-xs{
+	margin-top: 120px;
+	padding-top: 80px;
+	width: 100%;
+	height: 400px;
+	background-color: hsl(238, 22%, 44%);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+} */
+.early-sm-xs{
+	position: relative;
+	top:70px;
+	width: 100%;
+	height: 500px;
+	background-color: hsl(238, 22%, 44%);
+	text-align: center;
+	padding-top: 50px;
+}
+.early-sm-xs div:last-of-type{
+	margin-top: 70px
+}
+
+.early-sm-xs h1{
+	color:white;
+	font-size: 30px;
+	text-align: center
+}
+
+
+
+
+.early-sm-xs input{
+	height:40px;
+	
+	width: 300px;
+	padding-left: 20px;
+}
+
+
+.early-sm-xs button{
+	
+	height: 40px;
+	
+	width:300px;
+	background-color: hsl(224, 93%, 58%);
+	text-align: center;
+	color:white;
+	margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* lg and sm */
+
+
+.fylo{
+	
+	z-index: 1;
+/*	position: absolute;
+	margin-bottom: -100px; */
+	
+	padding-top: 80px;
+	width: 100%;
+	height: 700px;
+	background-color: hsl(243, 87%, 12%);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 160px
+}
+.fylo span{
+	color:white;
+}
+.fylo li , .fylo-sm-xs li{
+	list-style-type: none;
+}
+.fylo li a , .fylo-sm-xs li a{
+	color:white
+}
+/*
+.fylo div:first-of-type{
+	margin-top: 150px
+}
+.fylo div{
+	margin-top: 240px;
+	position: relative;
+	top:80px
+} 
+.fylo div:last-of-type{
+	
+	position: relative;
+	top:-60px;
+	display: inline-block;
+} */
+.fylo div{
+	margin-top: 150px
+}
+
+
+.about-us{
+	position: relative;
+	top:90px
+}
+.contact-us{
+	position: relative;
+	top:90px
+} 
+.social-media{
+	position: relative;
+	top:-60px;
+	display: inline-block;
+}
+.fylo div:last-of-type div{
+	cursor: pointer;
+	border:1px solid white;
+	border-radius: 50%;
+	background-color: hsl(243, 87%, 12%);
+	color:white;
+	margin-left: 30px;
+	display: inline-block;
+	height: 25px;
+	width:25px;
+	
+	transition: all 0.5s ease-in-out
+}
+
+div i{
+	color:white;
+	margin-left: 4px;
+	margin-top: 5px
+}
+
+
+
+/* sm and xs */
+.fylo-sm-xs{
+	
+	z-index: 1;
+	/* position: absolute;
+	margin-bottom: -100px; */
+	background-color: hsl(243, 87%, 12%);
+	margin-top: -50px;
+	padding-top: 190px;
+	width: 100%;
+	height: 1000px;
+	
+}
+
+.fylo-sm-xs div{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.fylo-sm-xs div:last-of-type{
+	text-align: center
+}
+.fylo-sm-xs div:last-of-type div{
+	cursor: pointer;
+	border:1px solid white;
+	border-radius: 50%;
+	background-color: hsl(243, 87%, 12%);
+	margin-left: 30px;
+	color:white;
+	display: inline-block;
+	height: 25px;
+	width:25px;
+	transition: all 0.5s ease-in-out
+}
+
+.fylo-sm-xs div i{
+	color:white;
+	margin-left: 0.2%;
+	margin-top: 5px
+}
+.fylo-sm-xs span{
+	color:white
+}
+.last{
+	width: 100%;
+	height: 100px;
+	background-color: hsl(243, 87%, 12%);
+	
+}
